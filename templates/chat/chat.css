@@ -1,0 +1,163 @@
+#chat_controls_wrap
+{
+	display: inline-block;
+	margin-top: 10px;
+	width: 830px;
+	height: 190px;
+	background: rgba(0, 0, 0, 0.9);
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.9);
+	border-radius: 4px 4px 4px 4px;
+}
+
+#chat_form1
+{
+padding: 30px 30px 10px 30px;
+float: left;
+width: 770px;
+height: 127px;
+}
+
+#chat_form2
+{
+float: left;		
+width: 830px;
+height: 35px;
+visibility: hidden;
+}
+
+#chat_name_input
+{
+float: left;
+width: 452px;
+height: 25px;
+background: #1C1C1C;
+color: rgba(173,216,230,0.8);
+border-color: rgba(0,0,128,0.6);
+}
+
+#chat_name_input:focus                            /* домашка урок 4 ввод в емаил - другой цвет текста и бэкграунда (работает)*/
+{
+background: black;
+color: lightblue;
+border-color: darkblue;
+}
+
+#chat_text_input
+{
+margin-top: 10px;
+float: left;
+width: 450px;
+height: 80px;
+background: #1C1C1C;
+color: rgba(173,216,230,0.8);
+border-color: rgba(0,0,128,0.6);
+}
+#chat_text_input:focus                            /* домашка урок 4 ввод в емаил - другой цвет текста и бэкграунда (работает)*/
+{
+background: black;
+color: lightblue;
+border-color: darkblue;
+}
+
+
+
+
+#chat_name_input,::-webkit-input-placeholder       {font: normal 15px/20px vinque, sans-serif; color: rgba(173,216,230,0.8); opacity: 1; transition: opacity 0.3s ease;}
+#chat_name_input::-moz-placeholder                {font: normal 15px/20px vinque, sans-serif;color: rgba(173,216,230,0.8); opacity: 1; transition: opacity 0.3s ease;}
+#chat_name_input:-moz-placeholder                 {font: normal 15px/20px vinque, sans-serif;color: rgba(173,216,230,0.8); opacity: 1; transition: opacity 0.3s ease;}
+#chat_name_input:-ms-input-placeholder            {font: normal 15px/20px vinque, sans-serif;color: rgba(173,216,230,0.8); opacity: 1; transition: opacity 0.3s ease;}
+#chat_name_input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+#chat_name_input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+#chat_name_input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+#chat_name_input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+#chat_text_input,::-webkit-input-placeholder       {font: normal 15px/20px vinque, sans-serif; color: rgba(173,216,230,0.8); opacity: 1; transition: opacity 0.3s ease;}
+#chat_text_input::-moz-placeholder                {font: normal 15px/20px vinque, sans-serif;color: rgba(173,216,230,0.8); opacity: 1; transition: opacity 0.3s ease;}
+#chat_text_input:-moz-placeholder                 {font: normal 15px/20px vinque, sans-serif;color: rgba(173,216,230,0.8); opacity: 1; transition: opacity 0.3s ease;}
+#chat_text_input:-ms-input-placeholder            {font: normal 15px/20px vinque, sans-serif;color: rgba(173,216,230,0.8); opacity: 1; transition: opacity 0.3s ease;}
+#chat_text_input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+#chat_text_input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+#chat_text_input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+#chat_text_input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+
+#chat_send_btn
+{
+    margin-left: 75px;
+	margin-top: -20px;
+	position: absolute;
+	width: 175px;
+	height: 175px;
+    background: url("chat_logo1.png");
+    background-size: cover;
+    border: none;
+    outline: none;
+}
+
+#chat_send_btn:hover
+{
+    margin-left: 75px;
+	margin-top: -20px;
+	position: absolute;
+	width: 175px;
+	height: 175px;
+    background: url("chat_logo.png");
+    background-size: cover;
+    border: none;
+    outline: none;
+}
+
+
+#chat_clear_btn
+{
+margin-left: 30px;
+}
+
+
+
+
+.chat_string_wrapper
+{
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	justify_content: flex-start;
+	align-items: center;
+	width: 830px;
+	height: 30px;
+	background: rgba(0, 0, 0, 0.9);
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.9);
+	border-radius: 4px 4px 4px 4px;
+
+}
+
+.date_text
+{
+display: inline-flex;
+float: left;
+margin-left: 5px;	
+font-weight: 100;
+font-style: italic;
+color: aqua;
+}
+
+.chat_user_name
+{
+
+display: inline-flex;
+float: left;
+margin-left: 15px;
+text-transform: uppercase;
+font-weight: bold;
+color: green;
+}
+
+.chat_written_text
+{
+display: inline-flex;
+float: left;
+margin-left: 15px;
+color: rgba(255, 255, 255, 0.8);
+}
+
+
